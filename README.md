@@ -1,10 +1,10 @@
-# 🛡️ Insider Threat Detection System with AI Chatbot
+#  Insider Threat Detection System with AI Chatbot
 
 An advanced, end-to-end security analytics platform that utilizes **Machine Learning** to identify high-risk behavioral patterns within an organization. This project compares two high-performance models (**Random Forest** and **XGBoost**) and features an interactive **Streamlit Dashboard** with an integrated **AI Security Assistant**.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 * **Dual-Model Intelligence**: Compares Random Forest and XGBoost for maximum detection accuracy.
 * **Behavioral Analytics**: Processes 10,000+ logs including login times, sensitive file access, and USB usage.
 * **Interactive Dashboard**: Real-time risk scoring and visual data distribution using Plotly.
@@ -13,7 +13,7 @@ An advanced, end-to-end security analytics platform that utilizes **Machine Lear
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 Insider_Threat_Detection/
 ├── data/
@@ -30,7 +30,7 @@ Insider_Threat_Detection/
 └── README.md               # Documentation
 ofessional! Do you need help with the "LICENSE" file or the "requirements.txt" to finish the repo?**
 
-🚀 Step-by-Step Setup
+ Step-by-Step Setup
 1. Clone the Repository
 
       git clone [https://github.com/YOUR_USERNAME/Insider_Threat_Detection.git]
@@ -53,7 +53,7 @@ ofessional! Do you need help with the "LICENSE" file or the "requirements.txt" t
 
       pip install -r requirements.txt
 
-🛠️ Execution Pipeline
+ Execution Pipeline
 Follow these steps in order to initialize the system:
 
 Step 1: Preprocessing
@@ -76,13 +76,13 @@ Run the interactive web interface and start detecting threats!
 
       streamlit run dashboard/app.py
 
-📊 How It Works
+ How It Works
 
 Data Input: The system takes features like login_hour, usb_insertions, and sensitive_files_accessed.
 
 AI Analysis: The selected model (RF or XGB) calculates a probability score.
 
-Risk Flagging: If the probability exceeds a threshold, a 🚨 HIGH RISK alert is triggered.
+Risk Flagging: If the probability exceeds a threshold, a  HIGH RISK alert is triggered.
 
 Assistance: Users can interact with the Security Chatbot to understand the specific dangers of the flagged activities.
 
